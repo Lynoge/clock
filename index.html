@@ -27,8 +27,16 @@
 		 		</radialGradient>
 		 	</defs>
 
+		 	<!-- Border of Clock -->
 			<circle cx="250" cy="200" r="300" fill="url(#borderClock)" />
+			<!-- Background of Clock -->
 			<circle cx="125" cy="125" r="115" fill="url(#bgClock)" />
+			<!-- Pointers -->
+			<line x1="125" y1="130" x2="180" y2="70" stroke="#f00" stroke-width="2px" id="finePointer" />
+			<line x1="125" y1="130" x2="180" y2="130" stroke="#000" stroke-width="5px" id="smallPointer" />
+			<line x1="125" y1="130" x2="125" y2="36" stroke="#000" stroke-width="8px" id="bigPointer"/>
+			<!-- <rect x="120" y="40" width="8" height="104" fill="#000" />
+		 	<rect x="109" y="122" width="5" height="88" fill="#000" transform="translate(10) rotate(30 30 30)" /> -->
 
 	</svg>
 
