@@ -2,7 +2,7 @@
 
 ###Files included:
 * Clock.sketch
-* index.php
+* index.html
 * main.css
 
 ###Objectives
