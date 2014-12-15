@@ -31,18 +31,24 @@
 				<circle cx="250" cy="200" r="280" fill="url(#borderClock)" />
 				<!-- Background of Clock -->
 				<circle cx="125" cy="125" r="115" fill="url(#bgClock)" />
-		 		<!-- Outline Clock - Just align -->
-		 		<circle cx="125" cy="125" r="100" fill="transparent" stroke="#f00" />
-		 		<circle cx="125" cy="125" r="105" fill="transparent" stroke="#f00" />
-		 		<circle cx="125" cy="125" r="110" fill="transparent" stroke="#f00" />
-		 		<line x1="0" y1="250" x2="250" y2="0" stroke="#f00" /><!-- Left bottom for top right -->
-		 		<line x1="250" y1="250" x2="0" y2="0" stroke="#f00" /><!-- Right bottom for top left -->
-		 		<line x1="195" y1="250" x2="55" y2="0" stroke="#f00" />
-		 		<line x1="55" y1="250" x2="195" y2="0" stroke="#f00" />
-		 		<line x1="0" y1="125" x2="250" y2="125" stroke="#f00" /><!-- Left for right -->
-		 		<line x1="125" y1="0" x2="125" y2="250" stroke="#f00" /><!-- Top for bottom -->
-
 			</g>
+
+			<!-- Outline Clock - Just align -->
+			<!-- <g stroke="#f00"> -->
+			 	<!-- <circle cx="125" cy="125" r="100" fill="transparent" /> -->
+			 	<!-- <circle cx="125" cy="125" r="105" fill="transparent" /> -->
+			 	<!-- <circle cx="125" cy="125" r="110" fill="transparent" /> -->
+			 	<!-- <line x1="0" y1="250" x2="250" y2="0" /> -->
+			 	<!-- <line x1="250" y1="250" x2="0" y2="0" /> -->
+			 	<!-- <line x1="195" y1="250" x2="55" y2="0" /> -->
+			 	<!-- <line x1="55" y1="250" x2="195" y2="0" /> -->
+			 	<!-- <line x1="0" y1="125" x2="250" y2="125" /> -->
+			 	<!-- <line x1="125" y1="0" x2="125" y2="250" /> -->
+			 	<!-- <line x1="195" y1="0" x2="55" y2="250" /> -->
+				<!-- <line x1="250" y1="55" x2="0" y2="195" /> -->
+				<!-- <line x1="55" y1="0" x2="195" y2="250" /> -->
+				<!-- <line x1="0" y1="55" x2="250" y2="195" /> -->
+			<!-- </g> -->
 
 			<!-- Big markers -->
 			<g stroke="#444" stroke-width="4">
@@ -52,12 +58,36 @@
 				<line x1="10" y1="125" x2="20" y2="125" />
 			</g>
 
+			<!-- Average markers -->
+			<g stroke="#444" stroke-width="2">
+				<line x1="182" y1="24" x2="176" y2="34" />
+				<line x1="69" y1="226" x2="74" y2="217" />
+				<line x1="226" y1="68" x2="217" y2="74" />
+				<line x1="24" y1="182" x2="34" y2="176" />
+				<line x1="181" y1="225" x2="176" y2="216" />
+				<line x1="226" y1="182" x2="217" y2="177" />
+				<line x1="24" y1="69" x2="34" y2="74" />
+				<line x1="67" y1="23" x2="74" y2="34" />
+			</g>
+
 			<!-- Big numbers -->
 			<g font-size="20">
 				<text x="114" y="38">12</text>
 				<text x="216" y="132">3</text>
 				<text x="120" y="226">6</text>
 				<text x="24" y="131">9</text>
+			</g>
+
+			<!-- Average numbers -->
+			<g stroke="#444" font-size="16" stroke-width=".1">
+				<text x="165" y="46">1</text>
+				<text x="205" y="84">2</text>
+				<text x="205" y="180">4</text>
+				<text x="165" y="215">5</text>
+				<text x="75" y="215">7</text>
+				<text x="38" y="180">8</text>
+				<text x="38" y="84">10</text>
+				<text x="70" y="50">11</text>
 			</g>
 
 			<!-- Pointers -->
